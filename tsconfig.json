@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowJs": true,
+    "checkJs": false, // 关闭对 JavaScript 文件的类型检查
+    "noEmit": true,
+    "isolatedModules": true,
+    "lib": ["esnext", "dom"],
+    "plugins": [
+      {
+        "name": "@vue/babel-plugin-jsx",
+        "allowNamespaces": true
+      }
+    ]
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.js"],
+  "exclude": ["node_modules"]
+}

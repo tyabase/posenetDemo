@@ -1,6 +1,6 @@
 # pose-master
-
-This template should help get you started developing with Vue 3 in Vite.
+### 本项目基于TensorFlow.js与posenet模型进行开发，欢迎二次开发！🚀
+这个模板应该可以帮助您开始在Vite中使用Vue 3进行开发。
 
 ## Recommended IDE Setup
 
